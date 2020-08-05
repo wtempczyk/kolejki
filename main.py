@@ -1,10 +1,11 @@
 import klasa
+
 kolejka = klasa.Fifo()
 print("\nFIFO:")
 for i in range(6):
-    kolejka.put("asd" + str(i))  #pobierz do kolejki
+    kolejka.put("asd" + str(i))  # pobierz do kolejki
 for i in range(6):
-    print(kolejka.get())  #Wyciągnij z kolejki
+    print(kolejka.get())  # Wyciągnij z kolejki
 
 del kolejka
 
